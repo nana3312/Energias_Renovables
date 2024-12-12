@@ -1,0 +1,85 @@
+/* codigo mio */
+
+.body_fondo{
+    background-color: #f0eded;
+    
+}
+
+.color_verde{
+    background-color: #4c8d21
+}
+
+.divider-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider-custom-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.divider-custom-icom {
+  font-size: 24px;
+  color: #fff;
+  animation: move-between 5s infinite alternate;
+}
+
+@keyframes move-between {
+  0% {
+      transform: translateX(-150px);
+  }
+  100% {
+      transform: translateX(150px);
+  }
+}
+
+/* Estiliza las imágenes del carrusel */
+.carousel-inner img {
+    object-fit: cover;
+    height: 500px; /* Ajusta la altura según lo necesites */
+    border-radius: 15px;
+  }
+  
+  /* Añade sombras a las imágenes */
+  .carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  /* Fondo y estilo de los indicadores */
+  .carousel-indicators button {
+    background-color: #fff;
+    border: none;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #1c4315;
+  }
+  
+  /* Ajusta los botones de control */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Estiliza los textos */
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+
+  /* codigo mio */
